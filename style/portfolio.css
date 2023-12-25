@@ -3,9 +3,12 @@
     font-family: 'Ubuntu', sans-serif;
 }
 /* Hader and Navbar Style  */
-header{
+.header{
     background-color: rgb(205, 226, 205);
-    height: 700px;
+    background-image: url(/images/header_bg.png) , url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right , 40px;
+    background-size: 800px, 90px;
 }
 .nav-titel{
     font-weight: 800;
@@ -27,7 +30,7 @@ nav ul{
 }
 nav li{
     list-style: none;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .btn-prymary{
     color: #FFFFFF;
@@ -46,17 +49,21 @@ nav li{
 /* Banner Setion  */
 .banner{
     display: flex;
-    margin: 50px 200px;
+    margin: 50px 115px 50px 200px;
     align-items: center;
 }
 .banner-titel{
 font-size: 45px;
+margin-bottom: 10px;
 }
 .banner-titel2{
-font-size: 70px;
+font-size: 65px;
+margin-bottom: 20px;
 }
 .banner-peragraph{
 font-size: 20px;
+margin-bottom: 30px;
+width: 75%;
 }
 
 .my-img{
