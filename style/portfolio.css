@@ -12,7 +12,7 @@
 }
 .nav-titel{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 50px;
     }
 nav{
     display: flex;
@@ -31,6 +31,8 @@ nav ul{
 nav li{
     list-style: none;
     margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .btn-prymary{
     color: #FFFFFF;
@@ -46,7 +48,7 @@ nav li{
     background: rgb(98, 216, 98);
     color: black;
 }
-/* Banner Setion  */
+/* Banner Style  */
 .banner{
     display: flex;
     margin: 50px 115px 50px 200px;
@@ -68,4 +70,40 @@ width: 75%;
 
 .my-img{
     height: 550px;
+}
+
+/* Main Style  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Style  */
+.about{
+    background-color: rgb(205, 226, 205);
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+}
+.about-titel{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: underline ;
+    text-underline-offset: 10px;
+}
+.about-discription{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.about-info-contaner{
+    display: flex;
+    justify-content: space-around;
+}
+.info-titel{
+font-size: 20px;
+}
+.info-discription{
+font-weight: bold;
+font-size: 20px;
 }
