@@ -6,7 +6,7 @@
 .header{
     background-color: rgb(205, 226, 205);
     box-shadow: 0px 3px 40px 5px ;
-    background-image: url('/images/header_bg.png') , url('/images/developer.png');
+    background-image: url(/images/header_bg.png) , url(/images/developer.png);
     background-repeat: no-repeat;
     background-position:bottom right , 40px;
     background-size: 800px, 90px;
