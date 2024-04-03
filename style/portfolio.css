@@ -220,3 +220,59 @@ hr{
 .submit-btn{
     text-align: left;
 }
+/* Responsive Section  */
+@media screen and (max-width:640px) {
+    .my-skills{
+        margin: 20px;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .resume-section{
+        margin: 40px 25px;
+    }
+    .resume-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .footer-section-discription{
+        padding: 20px;
+    }
+    .contact{
+        width: 100%;
+        padding: 5px;
+    }
+    .contact .box{
+        width: 80%;
+    }
+    .about{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .about-discription{
+        padding: 10px;
+    }
+    .about-info-contaner{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hide{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0 30px 30px;
+        padding: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+}
